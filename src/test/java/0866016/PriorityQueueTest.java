@@ -33,17 +33,22 @@ public class PriorityQueueTest {
         }
     }
     @Test
-    public void QueueExceptionTest(){
+    public void QueueExceptionTest1(){
         Exception exception1 =assertThrows(NullPointerException.class,()->{
             new PriorityQueue().offer(null);
         });
+    }
+    @Test
+    public void QueueExceptionTest2(){
         Exception exception2 =assertThrows(IllegalArgumentException.class,()->{
             new PriorityQueue(-1,null);
         });
+    }
+    @Test
+    public void QueueExceptionTest3(){
         Exception exception3 =assertThrows(NullPointerException.class,()->{
             new PriorityQueue().add(null);
         });
-
     }
 }
 
