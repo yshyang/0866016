@@ -1,2 +1,2 @@
 # 0866016
-using Travis CI
+[![Build Status](https://travis-ci.com/yshyang/0866016.svg?branch=main)][https://travis-ci.com/yshyang/0866016]
